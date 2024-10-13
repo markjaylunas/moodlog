@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## **Mood Log **
 
-## Getting Started
+### **Overview**
 
-First, run the development server:
+Mood Log is a web application built with Next.js 14 and Firebase, designed to help users track and analyze their daily emotions. By recording their mood on a regular basis, users can gain valuable insights into their emotional well-being, identify patterns, and develop strategies to improve their mental health.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### **Features**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **Daily Mood Logging:** Easily record your mood using a simple rating system.
+* **Mood Analytics:** Visualize your mood trends over time through charts and graphs.
+* **Personalized Insights:** Gain personalized recommendations based on your mood data.
+* **Journaling:** Keep a journal to add context and depth to your mood entries.
+* **Reminders:** Set reminders to ensure consistent mood tracking.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### **Prerequisites**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Node.js and npm (or yarn) installed
+* A Firebase account and project created
 
-## Learn More
+### **Getting Started**
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/markjaylunas/moodlog.git
+   ```
+2. **Install Dependencies:**
+   ```bash
+   cd mood-log
+   npm install
+   ```
+3. **Set up `.env.local`:**
+   * Create a `.env.local` file in the root directory of your project.
+   * Copy the environment variables from `.env.example` and paste them into `.env.local`, replacing the placeholders with your actual values.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### **Development**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* **Start the Development Server:**
+   ```bash
+   npm run dev
+   ```
+* **Access the App:** Open your web browser and navigate to `http://localhost:3000`.
 
-## Deploy on Vercel
+### **Deployment**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* **Deploy to Firebase:**
+   * Follow Firebase's deployment instructions for Next.js applications.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### **Contributing**
+
+Contributions are welcome! Please feel free to submit issues or pull requests.
+
+### **License**
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
