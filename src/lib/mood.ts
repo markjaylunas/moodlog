@@ -3,49 +3,49 @@ export const moodLevels = [
     name: "Ecstatic",
     level: 1,
     mood: {
-      name: "Party Popper",
-      emoji: "🎉",
+      name: "Smiling Face with Open Mouth",
+      emoji: "😄",
     },
     moodList: [
       {
-        name: "Party Popper",
-        emoji: "🎉",
+        name: "Smiling Face with Open Mouth",
+        emoji: "😄",
       },
       {
-        name: "Confetti Ball",
-        emoji: "🎊",
+        name: "Smiling Face with Open Mouth and Closed Eyes",
+        emoji: "😊",
       },
       {
-        name: "Balloon",
-        emoji: "🎈",
-      },
-      {
-        name: "Celebration",
-        emoji: "🥳",
-      },
-      {
-        name: "Star-Struck",
-        emoji: "🤩",
-      },
-      {
-        name: "Smiling Face with Sunglasses",
-        emoji: "😎",
+        name: "Smiling Face with Closed Eyes",
+        emoji: "🙂",
       },
       {
         name: "Face with Tears of Joy",
         emoji: "😂",
       },
       {
+        name: "Grinning Face",
+        emoji: "😁",
+      },
+      {
+        name: "Grinning Face with Sweat",
+        emoji: "😅",
+      },
+      {
+        name: "Rolling on the Floor Laughing",
+        emoji: "🤣",
+      },
+      {
         name: "Smiling Face with Heart-Eyes",
         emoji: "🥰",
       },
       {
-        name: "Smiling Face with Heart-Eyes",
-        emoji: "❤️",
+        name: "Smiling Face with Hearts",
+        emoji: "💕",
       },
       {
-        name: "Smiling Face with Open Mouth",
-        emoji: "😄",
+        name: "Smiling Face with Sunglasses",
+        emoji: "😎",
       },
     ],
   },
