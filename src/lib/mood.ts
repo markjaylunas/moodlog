@@ -1,106 +1,66 @@
 export const moodLevels = [
   {
-    name: "Ecstatic",
-    level: 1,
+    name: "Great",
+    level: 5,
     mood: {
-      name: "Smiling Face with Open Mouth",
-      emoji: "😄",
+      name: "Beaming Face",
+      emoji: "😁",
     },
     moodList: [
       {
-        name: "Smiling Face with Open Mouth",
+        name: "Beaming Face",
+        emoji: "😁",
+      },
+      {
+        name: "Grinning Face",
         emoji: "😄",
       },
       {
-        name: "Smiling Face with Open Mouth and Closed Eyes",
-        emoji: "😊",
+        name: "Grinning Face with Smiling Eyes",
+        emoji: "😃",
       },
       {
-        name: "Smiling Face with Closed Eyes",
-        emoji: "🙂",
+        name: "Smiling Face with Halo",
+        emoji: "😇",
       },
       {
-        name: "Face with Tears of Joy",
-        emoji: "😂",
-      },
-      {
-        name: "Grinning Face",
-        emoji: "😁",
-      },
-      {
-        name: "Grinning Face with Sweat",
-        emoji: "😅",
-      },
-      {
-        name: "Rolling on the Floor Laughing",
-        emoji: "🤣",
-      },
-      {
-        name: "Smiling Face with Heart-Eyes",
-        emoji: "🥰",
-      },
-      {
-        name: "Smiling Face with Hearts",
-        emoji: "💕",
-      },
-      {
-        name: "Smiling Face with Sunglasses",
-        emoji: "😎",
+        name: "Star-Struck Face",
+        emoji: "🤩",
       },
     ],
   },
   {
-    name: "Positive",
-    level: 2,
+    name: "Good",
+    level: 4,
     mood: {
-      name: "Smiling Face with Open Mouth",
-      emoji: "😄",
+      name: "Smiling Face",
+      emoji: "😊",
     },
     moodList: [
       {
-        name: "Smiling Face with Open Mouth",
+        name: "Smiling Face",
         emoji: "😊",
       },
       {
-        name: "Smiling Face with Closed Eyes",
-        emoji: "🙂",
-      },
-      {
-        name: "Grinning Face",
-        emoji: "😁",
-      },
-      {
-        name: "Grinning Face with Sweat",
-        emoji: "😅",
-      },
-      {
-        name: "Rolling on the Floor Laughing",
-        emoji: "🤣",
-      },
-      {
-        name: "Smiling Face with Heart-Eyes",
-        emoji: "🥰",
+        name: "Relieved Face",
+        emoji: "😌",
       },
       {
         name: "Smiling Face with Hearts",
-        emoji: "💕",
+        emoji: "🥰",
       },
       {
         name: "Smiling Face with Sunglasses",
         emoji: "😎",
       },
       {
-        name: "Thumbs Up",
-        emoji: "👍",
-      },
-      {
-        name: "Heart",
-        emoji: "❤️",
+        name: "Winking Face",
+        emoji: "😉",
       },
     ],
   },
   {
-    name: "Neutral",
+    name: "Meh",
     level: 3,
     mood: {
       name: "Neutral Face",
@@ -131,121 +91,65 @@ export const moodLevels = [
         name: "Shrugging Shoulders",
         emoji: "🤷‍♀️",
       },
-      {
-        name: "Persevering Face",
-        emoji: "🤨",
-      },
-      {
-        name: "Disappointed Face",
-        emoji: "🙁",
-      },
-      {
-        name: "Worried Face",
-        emoji: "😟",
-      },
-      {
-        name: "Confused Face",
-        emoji: "😕",
-      },
     ],
   },
   {
-    name: "Negative",
-    level: 4,
+    name: "Bad",
+    level: 2,
     mood: {
-      name: "Crying Face",
-      emoji: "😢",
+      name: "Disappointed Face",
+      emoji: "😞",
     },
     moodList: [
-      {
-        name: "Crying Face",
-        emoji: "😢",
-      },
-      {
-        name: "Loudly Crying Face",
-        emoji: "😭",
-      },
       {
         name: "Disappointed Face",
         emoji: "😞",
       },
       {
-        name: "Drooling Face",
-        emoji: "🤤",
+        name: "Crying Face",
+        emoji: "😢",
       },
       {
-        name: "Face with Cold Sweat",
-        emoji: "😰",
+        name: "Confused Face",
+        emoji: "😕",
       },
       {
-        name: "Anxious Face with Sweat",
-        emoji: "😨",
+        name: "Weary Face",
+        emoji: "😩",
       },
       {
-        name: "Scream Face",
-        emoji: "😱",
-      },
-      {
-        name: "Astonished Face",
-        emoji: "😲",
-      },
-      {
-        name: "Face with Open Mouth",
-        emoji: "😮",
-      },
-      {
-        name: "Face with Steam Coming Out of Nose",
-        emoji: "😤",
+        name: "Tired Face",
+        emoji: "😫",
       },
     ],
   },
   {
-    name: "Depressed",
-    level: 5,
+    name: "Awful",
+    level: 1,
     mood: {
-      name: "Face with Monocle",
-      emoji: "🧐",
+      name: "Crying Face",
+      emoji: "😭",
     },
     moodList: [
       {
-        name: "Face with Monocle",
-        emoji: "🧐",
+        name: "Crying Face",
+        emoji: "😭",
       },
       {
-        name: "Face with Medical Mask",
-        emoji: "😷",
+        name: "Persevering Face",
+        emoji: "😣",
       },
       {
-        name: "Shushing Face",
-        emoji: "🤫",
+        name: "Anguished Face",
+        emoji: "😧",
       },
       {
-        name: "Sleeping Face",
-        emoji: "😴",
+        name: "Fearful Face",
+        emoji: "😨",
       },
       {
-        name: "Sleepy Face",
-        emoji: "😪",
-      },
-      {
-        name: "Face with Open Mouth and Cold Sweat",
-        emoji: "😫",
-      },
-      {
-        name: "Face with Open Mouth and Tilted Eyes",
-        emoji: "😖",
-      },
-      {
-        name: "Dismayed Face",
-        emoji: "🙁",
-      },
-      {
-        name: "Tired Face",
-        emoji: "😩",
-      },
-      {
-        name: "Angry Face",
-        emoji: "😠",
+        name: "Screaming in Fear",
+        emoji: "😱",
       },
     ],
   },
