@@ -4,11 +4,11 @@ import { Button } from "../button";
 export default function MoodPickerList() {
   return (
     <section>
-      <ol className="flex justify-center flex-wrap gap-1 sm:gap-4 w-full">
+      <ol className="grid grid-cols-5 gap-1 sm:gap-4 w-full px-2 sm:px-4 max-w-screen-lg mx-auto">
         {moodLevels.map((mood) => (
-          <li key={mood.level}>
+          <li key={mood.level} className="flex justify-center">
             <Button
-              variant="outline"
+              variant="secondary"
               className="size-[60px] sm:size-32 lg:size-40"
             >
               <p className="flex flex-col gap-1">
