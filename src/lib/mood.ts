@@ -1,6 +1,6 @@
 export const moodLevels = [
   {
-    name: "Great",
+    name: "great",
     level: 5,
     mood: {
       name: "Beaming Face",
@@ -30,7 +30,7 @@ export const moodLevels = [
     ],
   },
   {
-    name: "Good",
+    name: "good",
     level: 4,
     mood: {
       name: "Smiling Face",
@@ -60,7 +60,7 @@ export const moodLevels = [
     ],
   },
   {
-    name: "Meh",
+    name: "meh",
     level: 3,
     mood: {
       name: "Neutral Face",
@@ -94,7 +94,7 @@ export const moodLevels = [
     ],
   },
   {
-    name: "Bad",
+    name: "bad",
     level: 2,
     mood: {
       name: "Disappointed Face",
@@ -124,7 +124,7 @@ export const moodLevels = [
     ],
   },
   {
-    name: "Awful",
+    name: "awful",
     level: 1,
     mood: {
       name: "Crying Face",

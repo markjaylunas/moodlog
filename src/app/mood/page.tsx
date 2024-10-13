@@ -1,4 +1,4 @@
-import MoodPickerList from "@/components/ui/mood-picker/mood-picker-list";
+import MoodPickerList from "@/components/mood-picker/mood-picker-list";
 
 export default async function MoodPage() {
   return (
